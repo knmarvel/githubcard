@@ -23,7 +23,7 @@ class App extends Component {
   render = () => {
     return (
       <React.Fragment>
-    <Button onClick={this.handleToggle}> Toggle User</Button>
+    <Button onClick={this.handleToggle}> Toggle User</Button>;
     {
       this.state.active === true && (
         <Card
